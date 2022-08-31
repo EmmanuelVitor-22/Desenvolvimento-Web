@@ -1,4 +1,3 @@
-// Objetivo IF e ELSE ... mas irei praticar com OBJETO e ARRAY
 let valorSalario = parseFloat(prompt("Diga seu salario:"))
 
 let descontoSalario = valorSalario * 0.11;
