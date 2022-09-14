@@ -1,7 +1,7 @@
 let precoLitroDoAlcool = 1.9;
 let precoLitroDaGasolina = 2.7;
-let op = (prompt("Digite A para alcool ou G para gasolina"));
-let opMinusculo = op.toLowerCase;
+let op = prompt("Digite A para alcool ou G para gasolina");
+
 switch (op) {
     case 'a':
         let qtdLitroDeAlcool = parseFloat(prompt("Diga a quantidade de alcool"));
@@ -15,7 +15,7 @@ switch (op) {
             let desconto = 0.4
             let totalAlcool = (precoLitroDoAlcool * qtdLitroDeAlcool);
             let valorDoDescontoDoAlcool = totalAlcool * desconto;
-            let aPagar = totalAlcool - valorDoDescontoDoAlcool
+            let aPagar = totalAlcool - valorDoDescontoDoAlcool;
             console.log(aPagar.toFixed(2));
         }
         break;

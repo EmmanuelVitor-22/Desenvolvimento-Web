@@ -1,18 +1,15 @@
 let numero = 11;
-let quociente=0;
-let numeroAtualizado=0; 
+let quociente = 0;
+let numeroAtualizado = 0;
 
-    
 
-while ((numero !== 0) &&(numero !==1)) {
-    console.log(`Numero Inicial:${numero}`)    
-    numeroAtualizado = numero-2;
-    console.log(`Quociente:${numeroAtualizado}`)
+
+while ((numero !== 0) && (numero !== 1)) {
+    numeroAtualizado = numero - 2;
     numero = numeroAtualizado;
-    console.log(`Numero atual:${numero}`)
     quociente++;
-    console.log(quociente)
 }
+console.log(`O Quociente é: ${quociente}`)
 
 
 // numero = 5                  numero = 3
