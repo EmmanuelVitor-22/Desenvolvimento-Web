@@ -1,0 +1,25 @@
+//funcoes de forma literal 
+function f1() {
+    // corpo da função
+}
+// armazenar em variavel
+
+const f2 = function () {
+    // corpo da função anonma
+}
+
+// Armazenar função em array (pois função em JS éum tipo de dado)
+const arr = [f1(), f2()];
+
+// Armazenar função em um atributo de objeto (seria um metodo)
+const obj = {};
+obj.falar = function () {
+    return 'olá'
+}
+console.log(obj.falar());
+
+// Passar uma função por parametro para outr função
+function run(funcao) {
+    funcao()
+}
+run(function () { console.log("sou função chamado pela run") });
