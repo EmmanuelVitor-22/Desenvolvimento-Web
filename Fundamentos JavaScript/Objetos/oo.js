@@ -77,4 +77,12 @@ function criarFuncionario(nome, salario, faltas) {
 const funcionario1 = criarFuncionario('juca', 1200, 4);
 const funcionario2 = criarFuncionario('ana', 3000, 4);
 console.log(funcionario1.getSalario());
-console.log(funcionario2.getSalario());
+console.log(funcionario2.nome, funcionario2.getSalario());
+
+function addFuncionario(criarFuncionario) {
+    let novoArr = [];
+    novoArr.push(criarFuncionario)
+    return novoArr
+}
+const funcionario3 = criarFuncionario('Lulu', 4000, 1);
+console.log(addFuncionario(funcionario3));
