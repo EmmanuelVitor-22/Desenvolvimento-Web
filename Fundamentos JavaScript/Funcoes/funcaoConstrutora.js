@@ -1,5 +1,5 @@
 
-function Carro(velocidadeMax = 200, delta = 5) {
+function Carro(velocidadeMax = 200, delta = 5) { // classe como molde
     // ATRIBUTO PRIVADO
     let velocidadeAtual = 0;
 
