@@ -82,7 +82,7 @@ console.log(funcionario2.nome, funcionario2.getSalario());
 function addFuncionario(criarFuncionario) {
     let novoArr = [];
     novoArr.push(criarFuncionario)
-    return novoArr
+    // return novoArr
 }
 const funcionario3 = criarFuncionario('Lulu', 4000, 1);
 console.log(addFuncionario(funcionario3));
