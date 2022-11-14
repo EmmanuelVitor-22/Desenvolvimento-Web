@@ -19,6 +19,11 @@ obj.falar();
 //  Função bind é utilizada para passar um objeto que se deseja ser "resolvido" o this
 // utilizado para "amarrar" um determinado objeto, dono da execução de um metodo expecifico
 //QUando passar para uma deteminada função, sempre que for referenciado o this, ele será o que foi passado no bind
+/**
+ * MDN EXPLICACAO
+  método bind() cria uma nova função que, quando chamada, tem sua palavra-chave this definida com o valor fornecido,
+   com uma sequência determinada de argumentos precedendo quaisquer outros que sejam fornecidos quando a nova função é chamada.
+ */
 // ex:
 const falarBomDia = obj.falar;
 falarBomDia()
