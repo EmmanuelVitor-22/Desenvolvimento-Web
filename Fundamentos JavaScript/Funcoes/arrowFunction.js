@@ -1,6 +1,6 @@
 // Sobre ARROW FUNCTIONS e THIS
 
-// o this na arrow function não muda de acordo com o contexto
+// o this na arrow é associado ao contexto onde a função foi escrita
 // com as funções arrow tem vantagens de serem mais curtas, 
 // possivilitam fazer funções mais expecificas
 
